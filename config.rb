@@ -101,7 +101,7 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, 'https://craftacademy.typeform.com/to/UlIfGg'
+set :apply_form_url, 'https://craftacademy.typeform.com/to/V4mFcd'
 set :apply_sa_form_url, 'http://apply.thecraftacademy.co.za'
 set :hire_form_url, 'https://craftacademy.typeform.com/to/SQcaqh'
 set :class_site_url, 'http://class.craftacademy.se'
