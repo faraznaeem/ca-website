@@ -42,6 +42,26 @@
     - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
       answer: Simple. Put all your time and focus into the course while you're there. Eat, sleep, shit code, period. Ask a lot of questions and make sure you understand something before you move on. Make sure you never ask the same question two times - it's lazy (and nothing irritates a coach as much as a lazy student).
 
+- first_name: Lara
+  last_name: Templemore-Walters
+  image: Lara-400.png
+  summary: Web Designer turned Web Developer
+  testimonial: Now, I just want to learn more!
+  cohort_month: September
+  cohort_year: 2016
+  categories:
+    - career changer
+  case_study:
+    - question: Can you talk a little bit about who you are and what your work has been until now?
+      answer: My name is Lara and I have been a web designer for over 18 years now (WOW that’s a long time). I have been using CMS like Joomla and WordPress to build my sites and then would outsource all my custom development. I was always so interested in watching my friends code or go through the custom code a developer had worked on for me, even though I had no clue what was going on it excited me and frustrated me.
+              So why didn’t I do my BSC degree you may ask, well, first of all, I didn’t have the funds and I am really not an academic, I am more a practical hands-on person.  But as internet trends have changed, the way we are able to learn online and gain knowledge over the years has given me the opportunity to fulfil a bucket list dream and learn how to code.
+    - question: In the Fall of 2015, you participated in the Craft Academy bootcamp. What made you decide to learn to code?
+      answer: As mentioned above I was always envious of my fellow coding friends and colleagues, it has always been one my bucket list to learn how to code and when I saw the Facebook Ad for the Craft Academy bootcamp for South Africa, I jumped at the opportunity.
+    - question: What would you say was the most important result of your time with Craft Academy?
+      answer: The biggest effect for me is that I just want to learn more, it’s ignited a new passion inside of me and to become even better at my coding. The other important effect is the relationships I gained with my fellow coders they become my best friends and family throughout the bootcamp, I miss our coding sessions a lot.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: I didn’t find the training model challenging. It suited my style of learning. Maybe the time frame to complete tasks was the most challenging, I would have liked to have more completed tasks in my git repository.
+
 - first_name: Gustaf
   last_name: Rudholm
   image: Gustaf-400.png
@@ -56,8 +76,6 @@
       answer: My name is Gustaf Rudholm. I’m 34 years old and I have worked with e-companies since before the last IT crash. I started my journey with the electronics company NetOnNet in 1999 and I was there for seven years. I gained a great deal of experience there with digital commerce and developed as a businessman.
     - question: In the Fall of 2015, you participated in the Craft Academy bootcamp. What made you decide to learn to code?
       answer: I have always been fascinated by how digital products are built with just a bunch of numbers, letters and creativity. Even though I hadn’t written any code before, I had used tons of digital products and services and understood the benefits of learning more about programming.
-    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
-      answer: Att jag nu kodar mer eller mindre på heltid och gör saker som jag bara kunde drömma om att göra innan jag gick bootcampen. Jag var otroligt nära att inte våga ta steget men nu kan jag inte ens förstå hur jag kunde tveka. De 12 veckorna visade sig vara en av de bästa investeringarna jag har gjort i mig själv!
     - question: What would you say was the most important result of your time with Craft Academy?
       answer: That I now code more or less full-time and make things that I only could have dreamed about doing before I participated in the bootcamp. I was very close to deciding not to enroll but now I can barely understand how I could have hesitated. Those twelve weeks have proved to be one of the best investments I have made in myself!
     - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
