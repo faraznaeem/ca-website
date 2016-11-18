@@ -65,7 +65,7 @@ helpers CurrentPageHelper,
 
 helpers do
   def current_page_is_sa?
-    current_page.url.match(/pretoria|south-africa/)
+    current_page.url.match(/ pretoria|south-africa|za/)
   end
 
   def current_page_is_campaign_page?
@@ -73,7 +73,7 @@ helpers do
   end
 
   def international_pages?
-    current_page.url.match(/international|pretoria|south-africa/)
+    current_page.url.match(/international|pretoria|south-africa|za/)
   end
 end
 
@@ -109,7 +109,7 @@ set :class_site_url, 'http://class.craftacademy.se'
 # Ignore folders with unused templates
 ignore 'elements/*'
 ignore 'not_in_use/*'
-#ignore 'case-studies/*' #as long as we don't present students
+# ignore 'case-studies/*' #as long as we don't present students
 
 # Redirects from old site urls
 redirect 'payments/new.html', to: config.apply_form_url
@@ -117,6 +117,7 @@ redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: config.apply_form_url
 redirect 'blog.html', to: 'https://blog.craftacademy.se'
 redirect 'pretoria.html', to: 'south-africa.html'
+redirect 'south-africa.html', to: 'english/za/index.html'
 
 
 activate :deploy do |deploy|
