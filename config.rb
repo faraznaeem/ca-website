@@ -117,6 +117,7 @@ ignore 'not_in_use/*'
 # ignore 'case-studies/*' #as long as we don't present students
 
 # Redirects from old site urls
+redirect 'international.html', to: 'english/index.html'
 redirect 'payments/new.html', to: config.apply_form_url
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: config.apply_form_url
