@@ -21,6 +21,28 @@
     - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
       answer: Det enda rådet jag vill ge till framtida studenter är att aldrig ge upp. Ibland kan det se ut som att dina kurskamrater kan mer än dig eller att de lär sig saker snabbare, men varje människa lär sig på sitt eget sätt och om du blir antagen betyder det att du KAN klara kursen. Fortsätt kämpa, never give up. Det är värt att hålla sig fast eftersom resultaten kommer i slutet.
 
+- first_name: Philip
+  last_name: Mannius Zudemberg
+  image: philip-400.png
+  summary: Entreprenör, eldsjäl och junior utvecklare på ItsMyStyl
+  testimonial: Du får ut i erfarenhet och kunskap det du lägger in i form av hårt arbete.
+  cohort_month: November
+  cohort_year: 2016
+  categories:
+    - career changer
+  case_study:
+    - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
+      answer: Jag heter Philip Zudemberg, jag är 22 år gammal och har tidigare varit med och startat ett antal it-startups i Silicon Valley (San Francisco). Där höll vi på med massor med spännande tekniker, b.la. geofencing appar, och wearables. Under min tid där jobbade mestadels med industriell design och marknadsföring.
+    - question: Under hösten 2016 deltog du i en bootcamp som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?
+      answer: Min tidigare startup lades ner i slutet på 2015 och jag visste inte riktigt vad jag skulle göra. Jag hade sett hur användbart programmering kunde vara och hur otroligt spännande det skulle vara att kunna göra det själv. Problemet var att jag inte visste vart jag skulle börja. Därför googlade jag fram Craft Academy och skickade in en ansökan.
+    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
+      answer: Under Craft Academy har jag utvecklat en stark intuition för programmering vilken inte bara gör att jag förstår hur jag ska bygga kod utan också kan se koden från ett helhetsperspektiv och därmed lösa problem som kan uppstå utan att spendera för mycket tid på dem. Jag har också lärt mig följa ett agilt tankesätt och en hel del olika processer som optimerar min kodning.
+    - question: Vad skulle du säga var det mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?
+      answer: Det mest utmanande för mig har varit att alla kursmedlemmar startar med olika förutsättningar och förväntningar. Det gör att man hamnar på olika nivåer, vilket kan skapa en slags obalans i gruppen. I en stor del av Bootcampet jobbar vi i grupprojekt, därför är det viktigt att alla redan innan vet hur mycket energi och tid man behöver lägga för att nå ett bra resultat.
+    - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
+      answer: Du får ut i erfarenhet och kunskap det du lägger in i form av hårt arbete. Så ju hårdare du jobbar desto mer kommer du lära dig. Se till att lägga så mycket projekt som du kan åt sidan innan du börjar så du kan fokusera helt på att lära dig koda. Det är trots allt ett bootcamp, så det är inte lätt. Men om du lägger in tiden och har viljan, kommer du slutföra det galant.
+
+
 - first_name: Bo
   last_name: Mattsson
   image: Bosse-400.png
