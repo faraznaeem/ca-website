@@ -63,13 +63,11 @@
         %thead.backgrounded
           %tr
             %th Vid antagning
-            %th Vid kursstart
             %th Rabatt
             %th Pris inkl. moms
         %tbody
           %tr
-            %td{data:{header: 'Vid antagning'}} 8 400 SEK, (anmälningsavgift)
-            %td{data:{header: 'Vid kursstart'}} 67 200 SEK, (senast 1 mån innan)
+            %td{data:{header: 'Vid antagning'}} 75 600 SEK
             %td{data:{header: 'Rabatt'}} 10 %
             %td{data:{header: 'Summa'}}
               %strong
@@ -95,7 +93,9 @@
       %small  * Räntefri delbetalning erbjuds studenter bosatta i Sverige. Sedvanlig kreditkontroll kommer att genomföras
     .centered-row
       %h3 Kvinnliga sökande
-      %p.copy--center Vi erbjuder <strong>8 400 kr</strong> rabatt till kvinnliga sökande eftersom kvinnor är mycket underrepresenterade i IT-branschen.
+      %p.copy--center
+        Vi erbjuder <strong>8 400 kr</strong> rabatt till kvinnliga sökande eftersom kvinnor är mycket underrepresenterade i IT-branschen.
+        %strong Denna rabatt läggs till eventuella ovanstående rabatter.
 
 = partial :'what_you_get', locals: {page: :payment}
 
