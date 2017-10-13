@@ -2,7 +2,7 @@
 
 [![Build Status](https://semaphoreci.com/api/v1/craftacademy/website/branches/master/shields_badge.svg)](https://semaphoreci.com/craftacademy/website)
 
-This is a fork of the [Makers Academy Site](https://github.com/makersacademy/website)
+This is a fork of the [Makers Academy Site](https://github.com/makersacademy/website) with custom, Craft Academy specific, additions. 
 
 ## Setting up the site locally
 
