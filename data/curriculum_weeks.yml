@@ -16,8 +16,13 @@
    Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge)
    och publicerar vår första app på internet.
 
-
 - title: Vecka 3
+  summary: Statiska siter och programmeringstekniker
+  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket Middleman. Vi introducerar även HAML - en HTML markup
+   som underlättar skapandet och underhållet av HTML kod.
+   Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
+
+- title: Vecka 4
   summary: Parprogrammering och Användarorienterad utveckling
   blurb: Vi inleder denna vecka med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood Challenge).
    Vi introducerar ett ramverk för webbaserade applikationer (Sinatra) och ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder
@@ -25,13 +30,6 @@
    SlowFood Challenge handlar även om designmönstret Model-View-Controller, relationsdatabaser och funktioner för användarregistrering, autentisering och auktorisering.
    Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku.
    För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
-
-
-- title: Vecka 4
-  summary: Statiska siter och programmeringstekniker
-  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket Middleman. Vi introducerar även HAML - en HTML markup
-   som underlättar skapandet och underhållet av HTML kod.
-   Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
 - title: Vecka 5
   summary: Software as a Service med Ruby on Rails
