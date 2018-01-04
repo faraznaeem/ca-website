@@ -13,7 +13,7 @@
   max-width: 70% !important;
 }
 
-@media only screen and (min-width: 320px) {
+@media all and (max-width: 480px) {
   #news-modal {
     width: 100% !important;
     max-width: 100% !important;
