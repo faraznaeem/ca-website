@@ -8,13 +8,13 @@
 
 @import "overrides";
 
-#news-flash{
+#news-modal{
   width: 70% !important;
   max-width: 70% !important;
 }
 
 @media only screen and (min-width: 320px) {
-  #news-flash {
+  #news-modal {
     width: 100% !important;
     max-width: 100% !important;
   }
