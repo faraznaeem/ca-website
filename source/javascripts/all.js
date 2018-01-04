@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     // Uses jQuery Modal: http://jquerymodal.com/
 
-    if (getCookie('newsFlashEN') != 'viewed') {
+    if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname == '/english/') {
 
         setTimeout(function () {
             $('#news-modal').modal({
@@ -69,7 +69,7 @@ $(document).ready(function () {
 
     }
 
-    if (getCookie('newsFlashSV') != 'viewed') {
+    if (getCookie('newsFlashSV') != 'viewed' && window.location.pathname == '/') {
 
         setTimeout(function () {
             $('#news-modal').modal({
