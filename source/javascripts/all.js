@@ -41,7 +41,7 @@ function getCookie(cname) {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
     var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
+    for (var i = 0; i < ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
@@ -55,10 +55,23 @@ function getCookie(cname) {
 
 $(document).ready(function () {
 
-    if(getCookie('newsFlash') != 'viewed') {
-        $('#news-flash').show();
-        setCookie('newsFlash', 'viewed', 7);
+    // Uses jQuery Modal: http://jquerymodal.com/
+
+    if (getCookie('newsFlash') != 'viewed') {
+
+        setTimeout(function () {
+            $('#ex1').modal({
+                fadeDuration: 100
+            });
+            //setCookie('newsFlash', 'viewed', 7);
+        }, 5000)
+
+
     }
+
+    $('#flash-link').on('click', function () {
+        $('.close-modal ').trigger('click')
+    });
 
     $('.slider').on('init', function () {
         var $sliderRows = $('.slider-row, .half-slider-row');
