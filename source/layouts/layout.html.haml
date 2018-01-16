@@ -1,6 +1,7 @@
 !!!
 %html
   %head
+    %link{href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css', rel: 'stylesheet'}/
     <!--[if gt IE 8]><!-->
     = stylesheet_link_tag 'all'
     <![endif]-->
@@ -45,6 +46,8 @@
     - else
       = javascript_include_tag 'doorbell'
       = javascript_include_tag 'mailchimp'
+      %script{src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js'}
+
 
     - if config.show_baseline_grid
       %script{:src => 'http://files.keyes.ie/things/baseliner/baseliner-latest.min.js'}

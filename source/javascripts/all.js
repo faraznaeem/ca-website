@@ -30,30 +30,83 @@
 //= require vertical_tabs
 //= require elements
 
-$(document).ready(function() {
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
 
-  $('.slider').on('init', function(){
-    var $sliderRows = $('.slider-row, .half-slider-row');
-    $sliderRows.css("opacity", 1);
-    $sliderRows.css("min-height", 0);
-  });
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
 
-  $('.slider:not(.lazy-slider)').slick({
-    prevArrow: "<a class='slick-prev'></a>",
-    nextArrow: "<a class='slick-next'></a>",
-    adaptiveHeight: true
-  });
+$(document).ready(function () {
 
-  $('.lazy-slider').slick({
-    prevArrow: "<a class='slick-prev'></a>",
-    nextArrow: "<a class='slick-next'></a>",
-    lazyload: 'progressive'
-  });
+    // Uses jQuery Modal: http://jquerymodal.com/
 
-  // set up sliders using Slick
-  // set up email capture using AJAXChimp
-  // set up instant feedback form using doorbell.io
+    if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname == '/english/') {
 
-  $('.definition-links').fixedScroll();
+        setTimeout(function () {
+            $('#news-modal').modal({
+                fadeDuration: 100
+            });
+            setCookie('newsFlashEN', 'viewed', 7);
+        }, 5000)
+
+
+    }
+
+    if (getCookie('newsFlashSV') != 'viewed' && window.location.pathname == '/') {
+
+        setTimeout(function () {
+            $('#news-modal').modal({
+                fadeDuration: 100
+            });
+            setCookie('newsFlashSV', 'viewed', 7);
+        }, 5000)
+
+
+    }
+
+    $('#flash-link').on('click', function () {
+        $('.close-modal ').trigger('click')
+    });
+
+    $('.slider').on('init', function () {
+        var $sliderRows = $('.slider-row, .half-slider-row');
+        $sliderRows.css("opacity", 1);
+        $sliderRows.css("min-height", 0);
+    });
+
+    $('.slider:not(.lazy-slider)').slick({
+        prevArrow: "<a class='slick-prev'></a>",
+        nextArrow: "<a class='slick-next'></a>",
+        adaptiveHeight: true
+    });
+
+    $('.lazy-slider').slick({
+        prevArrow: "<a class='slick-prev'></a>",
+        nextArrow: "<a class='slick-next'></a>",
+        lazyload: 'progressive'
+    });
+
+    // set up sliders using Slick
+    // set up email capture using AJAXChimp
+    // set up instant feedback form using doorbell.io
+
+    $('.definition-links').fixedScroll();
 
 });
