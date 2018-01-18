@@ -7,3 +7,18 @@
 @import "elements";
 
 @import "overrides";
+
+#news-modal{
+  width: 70% !important;
+  max-width: 70% !important;
+}
+
+@media all and (max-width: 480px) {
+  #news-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 35px 0 0 0 !important;
+    padding: 0 10px 5px 10px !important;
+    line-height: 1.4;
+  }
+}

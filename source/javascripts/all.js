@@ -57,13 +57,25 @@ $(document).ready(function () {
 
     // Uses jQuery Modal: http://jquerymodal.com/
 
-    if (getCookie('newsFlash') != 'viewed') {
+    if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname == '/english/') {
 
         setTimeout(function () {
-            $('#ex1').modal({
+            $('#news-modal').modal({
                 fadeDuration: 100
             });
-            //setCookie('newsFlash', 'viewed', 7);
+            setCookie('newsFlashEN', 'viewed', 7);
+        }, 5000)
+
+
+    }
+
+    if (getCookie('newsFlashSV') != 'viewed' && window.location.pathname == '/') {
+
+        setTimeout(function () {
+            $('#news-modal').modal({
+                fadeDuration: 100
+            });
+            setCookie('newsFlashSV', 'viewed', 7);
         }, 5000)
 
 
