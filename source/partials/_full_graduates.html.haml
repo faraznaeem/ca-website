@@ -21,3 +21,11 @@
                     = link_to "Besök #{possessivize_se(grad[:first_name])} blogg", grad[:blog_link], class: "button button--horizontal", target: "_blank"
             .image.hide-desktop.no-padding
               = image_tag("people/#{grad[:image]}")
+
+:javascript
+  document.addEventListener('DOMContentLoaded', function(){
+    setInterval( function(){
+      var element = document.getElementsByClassName('slick-next')[0]
+      element.click();
+    }, 5000)
+  })

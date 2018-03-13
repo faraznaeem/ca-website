@@ -1,9 +1,3 @@
-%section.no-padding-bottom.no-min-height
-  .container
-    .centered-row
-      %h2 Meet Our Students
-      %p{style: 'max-width: 90% !important;'}
-        Craft Academy students come from diverse backgrounds. But when they graduate from bootcamp, they all have one thing in common: they are ready to work as web developers. From entrepreneurs developing their own products to mid-level executives who wanted to make a career shift, their stories show the value in practical training.
 
 %section.full-slider{style: 'padding: 0px !important;'}
   .slider
@@ -28,3 +22,17 @@
                     = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: 'button button--horizontal', target: '_blank'
             .image.hide-desktop.no-padding
               = image_tag("people/#{grad[:image]}")
+%section.no-padding-bottom.no-min-height
+  .container
+    .centered-row
+      %h2 Meet Our Students
+      %p{style: 'max-width: 90% !important;'}
+        Craft Academy students come from diverse backgrounds. But when they graduate from bootcamp, they all have one thing in common: they are ready to work as web developers. From entrepreneurs developing their own products to mid-level executives who wanted to make a career shift, their stories show the value in practical training.
+
+:javascript
+  document.addEventListener('DOMContentLoaded', function(){
+    setInterval( function(){
+      var element = document.getElementsByClassName('slick-next')[0]
+      element.click();
+    }, 5000)
+  })
