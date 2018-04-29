@@ -12,15 +12,15 @@
 
 - title: Week 3
   summary: Static sites and more in-depth HTML and CSS
-  blurb: During Week Four, you'll build your own portfolio site using a static website framework called Middleman. We go in-depth with HTML, learn a markup language called HAML, introduce the Javascript framework JQuery and style portfolios with a CSS framework. At the end of the week, you'll have a professional portfolio site, which you will fill with the projects you complete over the rest of the course.
+  blurb: This week, you'll build your own portfolio site using a static website framework called Middleman. We go in-depth with HTML, learn a markup language called HAML, introduce the Javascript framework JQuery and style portfolios with a CSS framework. At the end of the week, you'll have a professional portfolio site, which you will fill with the projects you complete over the rest of the course.
 
 - title: Week 4
   summary: Pair Programming and User-Driven Development
-  blurb: This week we begin to lay the foundation for an online system that allows users to order food online. We introduce Sinatra, a framework for web based applications, and give you your first insight into Agile practices, focusing on Behavior Driven Development. The Slow Food Challenge is also about thinking more deeply about how the pieces of an application fit together, using advanced techniques such as user registration, authentication and authorization. At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku. To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
+  blurb: This week we begin to lay the foundation for an online system that allows users to order food online. We introduce Ruby on Rails,  a popular and in-demand framework that allows programmers to build complex, exciting web applications, and give you your first insight into Agile practices, focusing on Behavior Driven Development. The Slow Food Challenge is also about thinking more deeply about how the pieces of an application fit together, using advanced techniques such as user registration, authentication and authorization. At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku. To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
 
 - title: Week 5
   summary: Software as a Service with Ruby on Rails
-  blurb: This week we introduce Ruby on Rails, a popular and in-demand framework that allows programmers to build complex, exciting web applications. We present more complex testing strategies and help you understand how testing can greatly improve your workflow. This week we deepen our knowledge of external libraries (gems), APIs, websockets, etc.
+  blurb: Software as a Service - Work the web! This week we dive deeper into Ruby on Rails and introduce strategies to work effectively with legacy code. We present more complex testing strategies and help you understand how testing can greatly improve your workflow. This week we deepen our knowledge of external libraries (gems), APIs, websockets, etc.
 
 - title: Week 6
   summary: Mid Course Project
