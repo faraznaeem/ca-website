@@ -12,9 +12,7 @@
 
 - title: Vecka 2
   summary: Introduktion till JavaScript
-  blurb: Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript och Jasmine.
-   Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge)
-   och publicerar vår första app på internet.
+  blurb: Under vecka 2 fortsätter vi att utveckla dina JavaScript, HTML och CSS färdigheter. Tillsammans, bygger vi en adressbok applikation med rik funktionalitet och utforskar grundläggande metoder för datalagring. Vi fortsätter att jobba med testdriven utveckling och introducerar Behavior Driven Design (BDD). Under tiden vi jobban med vår adressbok, går även igonom grundläggande HTML och CSS. Du får även en första inblick i hur man publicerar applikationer på internet. Även denna vecka för du som student en helgutmaning att jobba med..
 
 - title: Vecka 3
   summary: Statiska siter och programmeringstekniker
@@ -24,20 +22,14 @@
 
 - title: Vecka 4
   summary: Parprogrammering och Användarorienterad utveckling
-  blurb: Vi inleder denna vecka med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood Challenge).
-   Vi introducerar ett ramverk för webbaserade applikationer (Sinatra) och ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder
-   med fokus på Behavior Driven Development.
-   SlowFood Challenge handlar även om designmönstret Model-View-Controller, relationsdatabaser och funktioner för användarregistrering, autentisering och auktorisering.
-   Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku.
-   För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
+  blurb: Vi inleder denna vecka med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood Challenge). Vi introducerar Ruby on Rails, ett ramverk för webbaserade applikationer och ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder med fokus på Behavior Driven Development. SlowFood Challenge handlar även om designmönstret Model-View-Controller, relationsdatabaser och funktioner för användarregistrering, autentisering och auktorisering. Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku. För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment.
 
 - title: Vecka 5
   summary: Software as a Service med Ruby on Rails
-  blurb: Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba
+  blurb: Den här veckan dyker vi djupare in i Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba
    efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod.
    Vi introducerar också mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess.
-   Vi forsätter med att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
-
+   Vi forsätter med att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm.
 
 - title: Vecka 6
   summary: Mid Course Project
@@ -46,7 +38,6 @@
     Du jobbar i team och bestämma själva vilken kod ni ska skriva och vilka funktioner som ska utvecklas, men även fatta beslut om vilka planeringsverktyg ni vill använda och
     när och hur man delegerar och fördelar arbetet. Det är teamet håller i spakarna - coacherna håller ett vakande öga för att se till att alla gör framsteg och hjälper till när det behövs.
     Det är en stor vecka här på Craft Academy.
-
 
 - title: Vecka 7
   summary: Mobila applikationer
