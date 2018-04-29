@@ -8,7 +8,7 @@
 
 - title: Week 2
   summary: Introduction to JavaScript
-  blurb: We introduce another programming language and associated testing framework - JavaScript and Jasmine. We also go through the basics of HTML and CSS and build an application that calculates your Body Mass Index (BMI Challenge) and deploy our first app on the Internet. Once again, you will have a Weekend Challenge to complete.
+  blurb: This week, we continue to build your JavaScript, HTML and CSS skills. Together we'll build an Address Book application with rich functionality and look into simple strategies for storing and persisting information. We'll also continue our journey into Test Driven Development and introduce you to Behavior Driven Design (BDD). We also go through the basics of HTML and CSS as we build this week's challenge. You will also get to deploy your first app on the Internet. Once again, you will have a Weekend Challenge to complete.
 
 - title: Week 3
   summary: Static sites and more in-depth HTML and CSS
