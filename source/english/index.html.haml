@@ -4,13 +4,23 @@
     .centered-row
       %h4.leader Are you ready to challenge yourself?
       %h1
-        = 'Coding as a craft in twelve weeks'.html_safe
+        = 'Tech as a craft<br>in twelve weeks'.html_safe
       %p{style: 'max-width: 29em;'}
         %strong
-          With Craft Academy, you'll learn web development in an exciting, fast-paced environment and get help to find your first job or build your own project.
+          With Craft Academy, you'll learn tech and web development in an exciting, fast-paced environment and get help to find your first job in the IT industry or build your own project.
+    .centered-row
+      %small
+        %strong
+          Upcoming courses:
+      - Intake.future_dates[0..2].each do |intake|
+        %h4.leader
+          = intake.course_name
+          = '-'
+          = intake.start_date.strftime('%-d %b %Y')
+
 = partial :'news_flash_en'
-= partial :'full_graduates_en'
 = partial :'intro'
+= partial :'full_graduates_en'
 = partial :'who_is_it_for'
 = partial :'reviews_eng'
 = partial :'course_dates', locals: { language: :en }

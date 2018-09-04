@@ -2,25 +2,31 @@
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_1.jpg')});"}
   .container
     .centered-row
-      %h4.leader Ta kontroll över framtiden.
+      %h4.leader Ta steget in i IT-branschen.
       %h1
         = 'Lär dig koda på 12 veckor'.html_safe
       %p
         %strong
-          Craft Academy är Sveriges ledande bootcamp inom webbutveckling. Med vår hjälp får du en snabb och effektiv väg in till ett spännande yrke.
+          Väx med Craft Academy och få en snabb och effektiv väg in till ett spännande yrke. 
     .centered-row
-      %h4.leader
-        Nästa kursstart:
-        = Intake.future_dates.first.start_date.strftime('%-d %b %Y')
+      %small
+        %strong
+          Uppkommande kursstarter:
+      - Intake.future_dates[0..2].each do |intake|
+        %h4.leader
+          = intake.course_name
+          = '-'
+          = intake.start_date.strftime('%-d %b %Y')
 
 %section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/startup-fade.jpg')});"}
   .container
     .centered-row
       %article
         %h4.leader Bli en del av lösningen
-        %h2 Det råder brist på utvecklare
+        %h2 Det råder brist på kunnig personal
         %p.copy
-          Arbetsgivare runt om i landet söker med ljus och lykta efter juniora systemutvecklare. Med vår hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
+          Arbetsgivare runt om i landet söker med ljus och lykta efter personal med rätt kunskaper. 
+          Med Craft Academy hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
 
 %section.hero-splash-white
   .container
@@ -29,7 +35,9 @@
         %h2
           Möt våra studenter
         %p
-          Deltagarna på våra bootcamps har ofta helt olika bakgrund. Från entreprenörer som vill utveckla sina egna produkter till de som är mitt i karriären och känner att det är dags för en ny utmaning. Alla har dock en sak gemensamt. De vill jobba med systemutveckling och de vill göra det nu - inte om tre år.
+          Deltagarna på våra accelererade utbildningar har ofta helt olika bakgrund. 
+          Från entreprenörer som vill utveckla sina egna produkter till de som är mitt i karriären och känner att det är dags för en ny utmaning. 
+          Alla har dock en sak gemensamt. De vill på något sätt bli delaktiga i den digitalisering som påverkar oss alla och de vill göra det nu - inte om tre år.
         .button-row.shift-to-bottom
           %p
             = link_to 'Våra studenter', '/students', class: "button button--vertical"

@@ -17,6 +17,14 @@ class Intake
     @dates = dates
   end
 
+  def course_name
+    dates['course']
+  end
+
+  def price
+    dates['price']
+  end
+
   def start_date
     Date.parse(dates['start_date'])
   end
