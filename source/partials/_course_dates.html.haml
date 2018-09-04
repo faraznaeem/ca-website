@@ -5,7 +5,7 @@
   .container{style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
     .row
       - if language == :se
-        %h4.leader Kommande bootcamps
+        %h4.leader Kommande utbildningar
         %h2 Kursdatum
         %p.copy
           %strong
@@ -14,34 +14,46 @@
         %h2 Course Dates
         %p.copy--left
           %strong
-            Apply in time - the selection process takes approximately two weeks and we will interview you before you are accepted. There are at most twelve spots in each cohort.
+            Apply in time - the selection process takes approximately two weeks and we will interview you before you are accepted. There are at most fourteen spots in each cohort.
     .centered-row
       %table.responsive-table
         %thead
           %tr
             - if language == :se
-              %th Förberedande kurs
+              %th Program
               %th Kursstart
               %th Examen
               %th Plats
             - else
-              %th Prep-Course start
+              %th Program
               %th Course start
               %th Graduation
+              %th Locations
 
         %tbody
           - Intake.future_dates.each do |intake|
             %tr
               - if language == :se
-                %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %b %Y')
-                %td{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %b %Y')
+                %td{data:{header: 'Program'}}= intake.course_name
+                %td{data:{header: 'Kursstart'}}
+                  = intake.start_date.strftime('%-d %b %Y')
+                  %br
+                    %small
+                      Förberedande kurs startar 
+                      = intake.precourse_start_date.strftime('%-d %b %Y')
                 %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %b %Y')
                 %td{data:{header: 'Plats'}}= intake.locations
               -else
-                %td{data:{header: 'Prep-Course start'}}= intake.precourse_start_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Program'}}= intake.course_name
                 %td
-                  %strong{data:{header: 'Course start'}}= intake.start_date.strftime('%-d %B %Y')
+                  %strong{data:{header: 'Course start'}}
+                    = intake.start_date.strftime('%-d %b %Y')
+                    %br
+                      %small
+                        Prep course starts 
+                        = intake.precourse_start_date.strftime('%-d %b %Y')
                 %td{data:{header: 'Graduation'}}= intake.end_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Locations'}}= intake.locations
     .row
       - if language == :se
         %h4 Ansök i god tid, antal utbildningsplatser är begränsat.

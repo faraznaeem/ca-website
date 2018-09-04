@@ -12,16 +12,19 @@
   .container
     .centered-row
       %h2 Kursavgift
-      %h4
-        Grundpriset för Craft Academy Bootcamp är
-      %h3
-        88 200 SEK
+      - Intake.future_dates[0..2].each do |intake|
+        %h4
+          = intake.course_name
+        %h4{style: 'color: black; margin-bottom: 30px;'}
+          = [intake.price, 'kr'].join(' ')
       %p Se nedan för tillgängliga finansieringsalternativ.
-      %h3 3 skäl att välja Craft Academy
+%section.hero-splash-white{style: 'padding-top: 40px;'}
+  .container
+    %h3 3 skäl att välja Craft Academy
     .three-width-row
       .column
         %h4.copy Snabbt
-        %p.copy Arbetsmarknaden skriker efter juniora utvecklare. Vi gör dig anställningsbar på bara 12 veckor. Dessutom får du coachning och kontakter när det är dags att söka ditt första jobb.
+        %p.copy Arbetsmarknaden skriker efter kopmetent personal. Vi hjälper dig att bli anställningsbar på bara 12 veckor. Dessutom får du coachning och kontakter när det är dags att söka ditt första jobb.
       .column
         %h4.copy Relevant
         %p.copy Vår läroplan är utvecklad av yrkesverksamma mjukvaruingenjörer. Vi ser till att du lär dig rätt saker och får kompetens inom de områden som efterfrågas av arbetsgivarna.
@@ -29,74 +32,120 @@
         %h4.copy Frihet
         %p.copy Craft Academy bootcamp öppnar dörrar och ökar dina möjligheter att få ett intressant och utmanande arbete, oavsett var i världen du beger dig.
     .centered-row
-      %h4.leader
-        Nästa kursstart:
-        = Intake.future_dates.first.start_date.strftime('%-d %b %Y')
       %h4
         Antalet platser är begränsat.
       = link_to 'Ansök nu', config.apply_form_url, class: 'button button--vertical button--large'
 
-%section.hero-splash-white
+%section.hero-splash-white{style: 'padding-top: 0px;'}
   .container
     .centered-row
       %h2 Finansiering
       %p.copy
-        Craft Academy bootcamp är en privat utbildningsform och berättigar således inte till CSN-stöd. Du kan välja att betala utbildningen enligt vår standardmodell eller ansöka om delbetalning.
+        Craft Academy är en privat utbildningsföretag och deltagande på våra program berättigar således inte till CSN-stöd. Du kan välja att betala utbildningen enligt vår standardmodell eller ansöka om delbetalning.
       %h3 Standardbetalning
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th Vid antagning
+            %th Program
+            %th Vid antagning <br><small> (anmälningsavgift)
             %th Vid kursstart
             %th Pris inkl. moms
 
         %tbody
           %tr
-            %td{data:{header: 'Vid antagning'}} 8 820 SEK, (anmälningsavgift)
-            %td{data:{header: 'Vid kursstart'}} 79 380 SEK
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'Vid antagning'}} 9 700 kr
+            %td{data:{header: 'Vid kursstart'}} 87 300 kr
             %td{data:{header: 'Summa'}}
               %strong
-                88 200 SEK
+                97 000 kr
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'Vid antagning'}} 11 500 kr
+            %td{data:{header: 'Vid kursstart'}} 103 500 kr
+            %td{data:{header: 'Summa'}}
+              %strong
+                115 000 kr
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'Vid antagning'}} 12 500 kr
+            %td{data:{header: 'Vid kursstart'}} 112 500 kr
+            %td{data:{header: 'Summa'}}
+              %strong
+                125 000 kr
     .centered-row
       %h3 Boka Tidigt-rabatt
+      %p Du kan välja att betala hela kursavgiften vid antagning till något av våra program och erhålla 5% rabatt.
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th Vid antagning
+            %th Program
+            %th Ordinarie pris
             %th Rabatt
-            %th Pris inkl. moms
+            %th Att betala vid antagning
         %tbody
           %tr
-            %td{data:{header: 'Vid antagning'}} 83 790 SEK
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'Listpris'}} 97 000 kr
+            %td{data:{header: 'Rabatt'}} 5%
+            %td{data:{header: 'Att betala vid antagning'}}
+              %strong
+                92 150 kr
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'Listpris'}} 115 000 kr
+            %td{data:{header: 'Rabatt'}} 5%
+            %td{data:{header: 'Att betala vid antagning'}}
+              %strong
+                109 250 kr
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'Vid antagning'}} 125 000 kr
             %td{data:{header: 'Rabatt'}} 5%
             %td{data:{header: 'Summa'}}
               %strong
-                83 790 SEK
+                118 750 kr
     .centered-row
       %h3 Räntefri Delbetalning *
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th Vid antagning
+            %th Program
+            %th Vid antagning <br><small> (anmälningsavgift)
             %th Vid kursstart
-            %th Avbetalning 24 mån
+            %th Avbetalning 24 mån<br><small>(inkl. 75kr aviavgift)
             %th Pris inkl. moms
         %tbody
           %tr
-            %td{data:{header: 'Vid antagning'}} 8 820 SEK, (anmälningsavgift)
-            %td{data:{header: 'Vid kursstart'}} 26 460 SEK
-            %td{data:{header: 'Avbetalning 24 mån'}} 2 254 SEK / mån inkl. 49kr aviagift
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'Vid antagning'}} 9 700 kr
+            %td{data:{header: 'Vid kursstart'}} 29 100 kr
+            %td{data:{header: 'Avbetalning 24 mån'}} 2 500 kr/mån
             %td{data:{header: 'Summa'}}
               %strong
-                89 376SEK
+                98 800 kr
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'Vid antagning'}} 11 500 kr
+            %td{data:{header: 'Vid kursstart'}} 34 500 kr
+            %td{data:{header: 'Avbetalning 24 mån'}} 2 950 kr/mån
+            %td{data:{header: 'Summa'}}
+              %strong
+                116 800 kr
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'Vid antagning'}} 12 500 kr
+            %td{data:{header: 'Vid kursstart'}} 37 500 kr
+            %td{data:{header: 'Avbetalning 24 mån'}} 3 200 kr/mån
+            %td{data:{header: 'Summa'}}
+              %strong
+                126 800 kr
       %small  * Räntefri delbetalning erbjuds studenter bosatta i Sverige. Sedvanlig kreditkontroll kommer att genomföras
     .centered-row
       %h3 Kvinnliga sökande
       %p.copy--center
-        Vi erbjuder <strong>4 410 kr (5%)</strong> rabatt till kvinnliga sökande eftersom kvinnor är mycket underrepresenterade i IT-branschen.
+        Vi erbjuder <strong>ytterligare 5%</strong> rabatt på ovanstående priser till kvinnliga sökande eftersom kvinnor är mycket underrepresenterade i IT-branschen.
         %strong Denna rabatt läggs till eventuella ovanstående rabatter.
-
-= partial :'what_you_get', locals: {page: :payment}
 
 %section
   .container

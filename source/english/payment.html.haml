@@ -11,8 +11,11 @@
     .centered-row
       %h4.leader Craft Academy
       %h2 Course Fees
-      %h4
-        The base price for Craft Academy bootcamp is 88 200 SEK (≈ €8 980)
+      - Intake.future_dates[0..2].each do |intake|
+        %h4
+          = intake.course_name
+        %h4{style: 'color: black; margin-bottom: 30px;'}
+          = [intake.price, 'SEK incl. VAT'].join(' ')
       .three-width-row
         .column
           %h3.copy--left Everything included
@@ -35,56 +38,109 @@
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th At registration
+            %th Program
+            %th At registration<br><small> (registration fee)
             %th At course start
             %th Total (incl. 25% VAT)
 
         %tbody
           %tr
-            %td{data:{header: 'At registration'}} 8 820 SEK, (registration fee)
-            %td{data:{header: 'At course start'}} 79 380 SEK
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'At registration'}} 9 700 SEK
+            %td{data:{header: 'At course start'}} 87 300 SEK
             %td{data:{header: 'Total'}}
               %strong
-                88 200 SEK
+                97 000 SEK
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'At registration'}} 11 500 SEK
+            %td{data:{header: 'Vid kursstart'}} 103 500 SEK
+            %td{data:{header: 'Total'}}
+              %strong
+                115 000 SEK
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'At registration'}} 12 500 SEK
+            %td{data:{header: 'At course start'}} 112 500 SEK
+            %td{data:{header: 'Total'}}
+              %strong
+                125 000 SEK
     .centered-row
       %h3 Full at registration = 5% discount
+      %p You can choose to pay the full course fee upon admission to any of our programs and receive a 5% discount.
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th At registration
+            %th Program
+            %th List price
             %th Discount
-            %th Total (incl. 25% VAT)
+            %th Total at registration (incl. 25% VAT)
         %tbody
           %tr
-            %td{data:{header: 'At registration'}} 83 790 SEK
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'List price'}} 97 000 SEK
             %td{data:{header: 'Discount'}} 5 %
-            %td{data:{header: 'Total (incl. 25% VAT)'}}
+            %td{data:{header: 'Total at registration(incl. 25% VAT)'}}
               %strong
-                83 790 SEK
+                92 150 SEK
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'List price'}} 115 000 kr
+            %td{data:{header: 'Discount'}} 5%
+            %td{data:{header: 'Total at registration(incl. 25% VAT)'}}
+              %strong
+                109 250 kr
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'List price'}} 125 000 kr
+            %td{data:{header: 'Discount'}} 5%
+            %td{data:{header: 'Total at registration(incl. 25% VAT)'}}
+              %strong
+                118 750 kr
+
     .centered-row
-      %h3 Interest-free installments *
+      %h3 Interest-free instalments  *
       %table.responsive-table
         %thead.backgrounded
           %tr
-            %th At registration
+            %th Program
+            %th At registration<br><small>(registration fee)
             %th At course start
-            %th 24 monthly installments
+            %th 24 monthly installments<br><small>(inkl. 75 SEK service fee)
             %th Total (incl. 25% VAT)
         %tbody
           %tr
-            %td{data:{header: 'At registration'}} 8 820 SEK, (registration fee)
-            %td{data:{header: 'At course start'}} 26 460 SEK
-            %td{data:{header: '24 monthly installments'}} 2 254 SEK / month
+            %td{data:{header: 'Program'}} Full Stack Web Developer
+            %td{data:{header: 'At registration'}} 9 700 SEK
+            %td{data:{header: 'At course start'}} 29 100 SEK
+            %td{data:{header: '24 monthly installments'}} 2 500 SEK/month
             %td{data:{header: 'Total'}}
               %strong
-                89 376 SEK
-      %small  * Interest-free installments are offered to students residing in Sweden.
+                98 800 SEK
+          %tr
+            %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
+            %td{data:{header: 'At registration'}} 11 500 SEK
+            %td{data:{header: 'At course start'}} 34 500 SEK
+            %td{data:{header: '24 monthly installments'}} 2 950 SEK/month
+            %td{data:{header: 'Total'}}
+              %strong
+                116 800 SEK
+          %tr
+            %td{data:{header: 'Program'}} Cyber Security Specialist
+            %td{data:{header: 'At registration'}} 12 500 SEK
+            %td{data:{header: 'At course start'}} 37 500 SEK
+            %td{data:{header: '24 monthly installments'}} 3 200 SEK/month
+            %td{data:{header: 'Total'}}
+              %strong
+                126 800 SEK
+
+      %small  * Interest-free installments are normaly offered to students residing in Sweden and in special cases to EU residents.
       %br
-        %small Regular credit check will be carried out. Monthly installments include a 49 SEK administrative fee.
+        %small Regular credit check will be carried out. Monthly installments include a 75 SEK service fee.
     .centered-row
       %h3 Female participants
       %p.copy--center
-        We also offer another <strong>4 410 kr (5%)</strong> discount to all female students. (We think that gender inequality sucks, and we want to do whatever we can to help put. You don't like it? Sue us!).
+        We also offer <strong>another 5%</strong> discount to all female students. (We think that gender inequality sucks, and we want to do whatever we can to help put. You don't like it? Sue us!).
         %strong Please note:
-        The 5% discount offered to female bootcamp participants will be applied to the above on top of the other discounts.
+        The 5% discount offered to female bootcamp participants will be applied on top of the other discounts.
 = partial :'/english/partials/_apply.html.haml'
