@@ -18,6 +18,11 @@ gem 'middleman-deploy', '~> 1.0'
 
 gem 'puma', '~> 2.7'
 
+# security updates
+gem 'ffi', '~> 1.9.24'
+gem 'sprockets', '~> 2.12.5'
+
+
 group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
