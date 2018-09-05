@@ -22,7 +22,7 @@
                     = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: 'button button--horizontal', target: '_blank'
             .image.hide-desktop.no-padding
               = image_tag("people/#{grad[:image]}")
-%section.no-padding-bottom.no-min-height
+%section.no-padding-bottom.no-min-height{style: 'padding-bottom: 30px;'}
   .container
     .centered-row
       %h2 Meet Our Students
