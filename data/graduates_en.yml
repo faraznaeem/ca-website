@@ -1,8 +1,50 @@
+- first_name: Erik
+  last_name: Steiman
+  image: erik-thomas.png
+  summary: Payroll consultant and Football fan turned software developer
+  testimonial: This is not just a first step into programming. You will get way deeper into programming than you can even begin to imagine.
+  cohort_month: June
+  cohort_year: 2018
+  categories:
+    - career changer
+  case_study:
+    - question: What was the best part of being part of the Craft Academy Bootcamp?
+      answer: Being a student at Craft Academy has been one of the most useful and important experience of my life. This is not just a first step into programming, but you will get way deeper into programming than you can even begin to imagine. Before the Bootcamp started I really didn't know anything about coding, 12 weeks later and coding feels like such an important part of my life.
+    - question: ..and the hardest part?
+      answer: You'll read a lot about the Bootcamp being super-tough, and believe me, it really is, but every single day I really did look forward to going to the office and knew that today I will learn so much new things. The tempo is obviously very high and at times it might feel a bit overwhelming with all the new stuff you are constantly being fed, but in the end you will notice how incredibly much you learnt. Really go for it whole-heartly and it will feel fun rather than tough.
+    - question: What are most important thing you've learned?
+      answer: The coding stuff is obviously great, that's the knowledge you're being fed, but the thing that really makes this Bootcamp stand out is the working processes. You learn working test driven from the very beginning using version control and from there it just takes on... Simulating real life-projects and the whole idea of Agile methodology and everything that comes along with it like Sprints, Scrums, Reviews and Retrospective. Those are the experiences that are unique, and that really gives you such a great workflow and preaparation for your future career.
+    - question: What would be your advice to anyone that would like to leant to code?  
+      answer: The very thing that makes Craft Academy such a great place to start your Programming-career is the whole atmosphere. You are constantly surrounded by incredibly commited coaches and other students. For me it became such an inspiring environment to be in, and I didn't just developed my skills as a programmer, but I feel like I improved a lot as a person.
+    - question: Any final words, Erik?
+      answer: Going to Craft Academy was one of my best decisions I've ever made. If you have the slightest interest in coding, then this is the place to be. Craft Academy gets my biggest recommendation.
+
+- first_name: Andreas
+  last_name: Møller-Nybye
+  image: andreas-thomas.png
+  summary: Kickstarting a new career with Craft Academy
+  testimonial: Thank you Craft Academy for making this bootcamp an absolutely awesome experience!
+  cohort_month: June
+  cohort_year: 2018
+  categories:
+    - career changer
+  case_study:
+    - quiestion: Who are you? Tell us a little bit about who you are and what your work has been until now?
+      answer: I am 31 years old Danish guy living in Stockholm with a partner. I have a masters degree en environmental biologi and geography from Roskilde University, Denmark. However I work at a IT hosting company, Itadel A/S, as a site manager. Which means I work with the physical hardware in datacenters. I like to work with computers, but in my current job I don't have the opportunity to create stuff. I would like that, and I think learning to program could help me in my goal to work with computers AND create.
+    - question: What was the best part of being part of the Craft Academy Bootcamp?
+      answer: The best, and most fun part of the camp, is when the things you've been taught work when you use them in your projects. When your tests are going green.
+    - question: ..and the hardest part?
+      answer: The hardest part is to balance the commitment to the camp and your social life. I was aware from the beginning that there won't be much time for sociall activities, but still, when you have a partner, there's a need to balance how you spend your time. That can be tough at times. She's happy it's over.
+    - question: What are your plans now that the camp is over?
+      answer: The first two weeks after the camp will be spent in the sun. We are going on vacation. After 3 months in a basement, working on a computer, I need a bit of sun. After that, I hope to find a position as a Junior Developer. It's important that I find a company that is commited to agile methodologies, that they practice TDD and Pair Programming, but also that they are prepared to work with me and teach me stuff. 
+    - question: What would be your advice to anyone that would like to leant to code?  
+      answer: My advice to anyone who is eager to learn programming is to sign up for Craft Academy. It's a wonderful experience - both personally and professionally. Do that. 
+
 - first_name: Ólöf
   last_name: Vignisdóttir
   image: Olof-400.png
   summary: From a telecom company employee to a Frontend Developer
-  testimonial: When I found my inner peace and just kept on coding the results came
+  testimonial: When I found my inner peace and just kept on coding, the results came.
   cohort_month: August
   cohort_year: 2017
   categories:
