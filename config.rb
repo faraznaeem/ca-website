@@ -127,9 +127,9 @@ redirect 'south-africa.html', to: 'english/za/index.html'
 
 activate :deploy do |deploy|
   deploy.method          = :rsync
-  deploy.host            = ENV.fetch('HOST')
-  deploy.path            = ENV.fetch('DEPLOY_PATH')
-  deploy.user            = ENV.fetch('DEPLOY_USER')
+  # deploy.host            = ENV.fetch('HOST')
+  # deploy.path            = ENV.fetch('DEPLOY_PATH')
+  # deploy.user            = ENV.fetch('DEPLOY_USER')
   deploy.build_before    = true
   deploy.clean           = true
 end
