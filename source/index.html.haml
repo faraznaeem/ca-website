@@ -42,9 +42,9 @@
           %p
             = link_to 'Våra studenter', '/students', class: "button button--vertical"
       .image.show-desktop
-        %img= image_tag ('people/students_group.png')
+        = image_tag 'people/students_group.png', style: 'margin: 20px 20px 20px 20px;'
       .image.hide-desktop.no-padding
-        %img= image_tag ('/people/students_group.png')
+        = image_tag '/people/students_group.png', style: 'margin: 20px 20px 20px 20px;'
 
 %section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/ipad-fade.jpg')});"}
   .container
