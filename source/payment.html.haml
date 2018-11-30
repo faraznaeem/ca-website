@@ -1,4 +1,4 @@
-- description 'Våra priser - Grundpriset för Craft Academy Bootcamp är 84 000 SEK. Titta efter aktuella erbjudanden.'
+- description 'Våra priser - Grundpriset för Craft Academy\'s Full Stack Developer Bootcamp är 97 700 SEK. Titta efter aktuella erbjudanden.'
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_4.jpg')});"}
   .container
     .centered-row
@@ -12,7 +12,7 @@
   .container
     .centered-row
       %h2 Kursavgift
-      - Intake.future_dates[0..2].each do |intake|
+      - Intake.future_dates[1..2].each do |intake|
         %h4
           = intake.course_name
         %h4{style: 'color: black; margin-bottom: 30px;'}
@@ -113,14 +113,14 @@
             %th Program
             %th Vid antagning <br><small> (anmälningsavgift)
             %th Vid kursstart
-            %th Avbetalning 24 mån<br><small>(inkl. 75kr aviavgift)
+            %th Avbetalning 18 mån<br><small>(inkl. 75kr aviavgift)
             %th Pris inkl. moms
         %tbody
           %tr
             %td{data:{header: 'Program'}} Full Stack Web Developer
             %td{data:{header: 'Vid antagning'}} 9 700 kr
             %td{data:{header: 'Vid kursstart'}} 29 100 kr
-            %td{data:{header: 'Avbetalning 24 mån'}} 2 500 kr/mån
+            %td{data:{header: 'Avbetalning 18 mån'}} 3 308 kr/mån
             %td{data:{header: 'Summa'}}
               %strong
                 98 800 kr
@@ -128,7 +128,7 @@
             %td{data:{header: 'Program'}} Enterprise Java Web Application Developer
             %td{data:{header: 'Vid antagning'}} 11 500 kr
             %td{data:{header: 'Vid kursstart'}} 34 500 kr
-            %td{data:{header: 'Avbetalning 24 mån'}} 2 950 kr/mån
+            %td{data:{header: 'Avbetalning 18 mån'}} 5 825 kr/mån
             %td{data:{header: 'Summa'}}
               %strong
                 116 800 kr
@@ -136,7 +136,7 @@
             %td{data:{header: 'Program'}} Cyber Security Specialist
             %td{data:{header: 'Vid antagning'}} 12 500 kr
             %td{data:{header: 'Vid kursstart'}} 37 500 kr
-            %td{data:{header: 'Avbetalning 24 mån'}} 3 200 kr/mån
+            %td{data:{header: 'Avbetalning 18 mån'}} 6 325 kr/mån
             %td{data:{header: 'Summa'}}
               %strong
                 126 800 kr
