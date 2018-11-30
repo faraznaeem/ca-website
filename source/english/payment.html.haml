@@ -1,4 +1,4 @@
-- description 'Our prices - Base Price for Craft Academy Bootcamp is 84 000 SEK.'
+- description 'Our prices - Base Price for Craft Academy\'s Full Stack Developer Bootcamp is 97 700 SEK.'
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_4.jpg')});"}
   .container
     .centered-row
@@ -11,7 +11,7 @@
     .centered-row
       %h4.leader Craft Academy
       %h2 Course Fees
-      - Intake.future_dates[0..2].each do |intake|
+      - Intake.future_dates[1..2].each do |intake|
         %h4
           = intake.course_name
         %h4{style: 'color: black; margin-bottom: 30px;'}
@@ -19,7 +19,7 @@
       .three-width-row
         .column
           %h3.copy--left Everything included
-          %p.copy--left Your course fees include all instruction, materials, and continued support before and after the bootcamp with technical and career assistance. We provide all the necessary tools to develop efficiently - software licenses, a functional and ergonomic work environment - even a computer, if you need. The course fee also includes the Swedish VAT tax of 25%.
+          %p.copy--left Your course fees include all instruction, materials, and continued support before and after the bootcamp with technical and career assistance. We provide all the necessary tools to develop efficiently - software licenses, a functional and ergonomic work environment. The course fee also includes the Swedish VAT tax of 25%.
         .column
           %h3.copy--left Female participants
           %p.copy--left We also proudly offer a 5% discount to female bootcamp participants. Our industry needs more female developers and we want to do everything we can to help women succeed on their coding journey.
