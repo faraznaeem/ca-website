@@ -9,7 +9,7 @@
           %li
             = link_to 'Facebook', 'https://www.facebook.com/CraftAcademySA/', target: '_blank'
           %li
-            = link_to 'Blog', 'https://medium.com/@CraftAcademy', target: '_blank'
+            = link_to 'Blog', 'https://medium.com/craft-academy', target: '_blank'
         %ul.column
           %li
             %h3 Contact
@@ -51,7 +51,7 @@
           %li
             = link_to 'YouTube', 'https://www.youtube.com/makersacademyse', target: '_blank'
           %li
-            = link_to 'Blog', 'https://medium.com/@CraftAcademy', target: '_blank'
+            = link_to 'Blog', 'https://medium.com/craft-academy', target: '_blank'
         %ul.column
           %li
             %h3 Kontakt
@@ -61,14 +61,20 @@
                 = link_to 'info@craftacademy.se', 'mailto:info@craftacademy.se'
               .adr
                 %p
-                  %span.org Craft Academy
+                  %span.org 
+                    %strong Craft Academy
                   %br
-                  %span.street-address Chalmers Innovation/Stena Center,
+                  %span.org 
+                    %strong Pragmatic Labs AB
+                  %br
+                  %span.org Org nr 559078-2248
+                  %br
+                  %span.street-address Stena Center/Chalmers Innovation,
+                  %br
                   %span.street-address Holtermansgatan 1D
                   %br
                   %span.postal-code 411 29
                   %span.locality Göteborg,
-                  %span.country-name Sverige
                   %br
               .tel
                 = link_to '+46 (0)723 612527', 'tel: +46 (0)723 612527'
@@ -90,4 +96,5 @@
             = "Craft Academy is a service provided by ThinkBots Pty Ltd. &copy; #{Time.now.year}"
         - else
           %small
-            = "Craft Academy är en utbildningstjänst från Pragmatic Sweden AB. &copy; #{Time.now.year}"
+            %strong
+              = "Craft Academy är en utbildningstjänst från Pragmatic Labs AB. &copy; #{Time.now.year}"

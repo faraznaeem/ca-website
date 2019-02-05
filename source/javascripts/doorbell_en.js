@@ -1,4 +1,10 @@
 window.doorbellOptions = {
+  strings: {
+    'feedback-button-text': 'Do you have any questions?',
+
+    'title': 'Contact us',
+    'intro-text': 'Would you like to know more aboutt Craft Academy. Get in touch with us using the form below or call on +46 (0)732-612527',
+  },
   id: '1974',
   appKey: 'zF0anPyXM2iItB1yfkqhwe8iMBdR4mBuiKPuwH2oe0OuFBvK9IFoksmZVigjgaGS'
 };
