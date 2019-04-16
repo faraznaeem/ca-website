@@ -15,7 +15,7 @@
   blurb: Under vecka 2 fortsätter vi att utveckla dina JavaScript, HTML och CSS färdigheter. Tillsammans, bygger vi en adressbok applikation med rik funktionalitet och utforskar grundläggande metoder för datalagring. Vi fortsätter att jobba med testdriven utveckling och introducerar Behavior Driven Design (BDD). Under tiden vi jobban med vår adressbok, går även igonom grundläggande HTML och CSS. Du får även en första inblick i hur man publicerar applikationer på internet. Även denna vecka för du som student en helgutmaning att jobba med.
 
 - title: Vecka 3
-  summary: React siter och programmeringstekniker
+  summary: SPA med React och programmeringstekniker
   blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket React.
    Vi introducerar mer avancerade javascriptkoncept och CSS ramverk (Tailwind, Semantic-ui) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
