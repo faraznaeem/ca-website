@@ -16,7 +16,7 @@
 
 - title: Vecka 3
   summary: SPA med React och programmeringstekniker
-  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket React.
+  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med biblioteket React.
    Vi introducerar mer avancerade javascriptkoncept och CSS ramverk (Tailwind, Semantic-ui) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
 - title: Vecka 4
@@ -40,7 +40,7 @@
 
 - title: Vecka 7
   summary: Mobila applikationer
-  blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att dyka djupare i ReactJS, ett populärt front-end ramverk.
+  blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att dyka djupare i ReactJS, ett populärt front-end bibliotek.
     Vi tittar även på React Native som är ett ramverk för utveckling av mobila applikationer utan att behöva arbeta med inhemska språk för iOS eller Android.
     I slutet av veckan kommer du ha utvecklat och distribuerat två applikationer som kan ses på en mobil enhet.
 
