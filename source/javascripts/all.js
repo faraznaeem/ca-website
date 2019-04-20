@@ -71,7 +71,6 @@ $(document).ready(function () {
 
     // Uses jQuery Modal: http://jquerymodal.com/
     if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname.includes('english')) {
-        debugger;
         setTimeout(function () {
             $('#news-modal').modal({
                 fadeDuration: 100
@@ -83,7 +82,6 @@ $(document).ready(function () {
     }
 
     if (getCookie('newsFlashSV') != 'viewed' && window.location.pathname == '/') {
-
         setTimeout(function () {
             $('#news-modal').modal({
                 fadeDuration: 100
