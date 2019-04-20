@@ -15,10 +15,9 @@
   blurb: Under vecka 2 fortsätter vi att utveckla dina JavaScript, HTML och CSS färdigheter. Tillsammans, bygger vi en adressbok applikation med rik funktionalitet och utforskar grundläggande metoder för datalagring. Vi fortsätter att jobba med testdriven utveckling och introducerar Behavior Driven Design (BDD). Under tiden vi jobban med vår adressbok, går även igonom grundläggande HTML och CSS. Du får även en första inblick i hur man publicerar applikationer på internet. Även denna vecka för du som student en helgutmaning att jobba med.
 
 - title: Vecka 3
-  summary: Statiska siter och programmeringstekniker
-  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket Middleman. Vi introducerar även HAML - en HTML markup
-   som underlättar skapandet och underhållet av HTML kod.
-   Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
+  summary: SPA med React och programmeringstekniker
+  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med biblioteket React.
+   Vi introducerar mer avancerade javascriptkoncept och CSS ramverk (Tailwind, Semantic-ui) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
 - title: Vecka 4
   summary: Parprogrammering och Användarorienterad utveckling
@@ -41,12 +40,12 @@
 
 - title: Vecka 7
   summary: Mobila applikationer
-  blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att introducera AngularJS, ett populärt front-end ramverk.
-    Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer utan att behöva arbeta med inhemska språk för iOS eller Android.
+  blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att dyka djupare i ReactJS, ett populärt front-end bibliotek.
+    Vi tittar även på React Native som är ett ramverk för utveckling av mobila applikationer utan att behöva arbeta med inhemska språk för iOS eller Android.
     I slutet av veckan kommer du ha utvecklat och distribuerat två applikationer som kan ses på en mobil enhet.
 
 - title: Vecka 8, 9, 10
-  summary: Avancerad Rails, API'er och Agila utvecklingsmetoder
+  summary: Avancerad Rails, React, API'er och Agila utvecklingsmetoder
   blurb: Allt handlar om att plocka på sig erfarenhet och kompetens (som vi definierar kunskap omsatt i praktik). Under tre veckor bygger vi en avancerad marketplace-applikation som en fortsättning på vår News Room utmaning. Vi fördjupar oss i konceptet med API'r som hjälper oss att öppna upp vårt system för andra utvecklare, jobbar med mer avancerade planeringsverktyg, följer de agila arbetsmetoderna och sjösäter en fullvärdig lösning.
   
 - title: Vecka 11 & 12

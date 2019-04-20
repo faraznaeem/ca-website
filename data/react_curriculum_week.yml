@@ -1,0 +1,23 @@
+- title: Prepkurs
+  summary: Allt du behöver inför kursstarten
+  blurb: Vi går igenom grundläggande JS, HTML och CSS. Vi kommer även bygga din första webbapplikation under prepkursen.
+
+- title: Vecka 1
+  summary: Addressbook challenge
+  blurb: Denna vecka bygger vi en adressbok där vi kan spara alla våra kontakter. Vi använder oss av Vanilla Javascript, HTML och CSS
+
+- title: Vecka 2
+  summary: React introduktion - Portfolio challenge
+  blurb: Denna vecka tar vi an React och lär oss de grundläggande koncepten. Du kommer även bygga en egen portfölj där du kan visa upp dina projekt.
+
+- title: Vecka 3
+  summary: Väderapp med React
+  blurb: Denna vecka kommer vi bygga en app och koppla upp oss mot ett API för att visa vädret där användaren bor
+
+- title: Vecka 4
+  summary: BMI & Cooper challenge
+  blurb: Denna vecka är tuff vi kommer bygga två appar med hjälp av testdriven utveckling.
+
+- title: Vecka 5 - 6
+  summary: Capstone Project
+  blurb: Nu knyter vi ihop säcken genom att använda oss av allt vi lärt oss och bygga en unik app i vårt slutprojekt

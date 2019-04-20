@@ -1,0 +1,23 @@
+- title: Precourse
+  summary: Everything you need to know to hit the ground running in the bootcamp
+  blurb: "Set up your environment, and learn the basics of web development. We will also build your first web app"
+
+- title: Week 1
+  summary: Address book challenge in Vanilla Javascript with ES6
+  blurb: This week we will deepen our knowledge into JS and ES6 by creating an address book application.
+
+- title: Week 2
+  summary: Fundamentals of React - Portfolio Challenge
+  blurb: Build your own portfolio with React where you can showcase your projects and code to the world
+
+- title: Week 3
+  summary: Build a Weather app with React
+  blurb: We will build a weather app by connecting to an API and dynamically change the information depending on your location.
+
+- title: Week 4
+  summary: TDD with React
+  blurb: This week we will dive deeper into the TDD approach and introduce different testing frameworks
+
+- title: Week 5 - 6
+  summary: Capstone Project
+  blurb: Connect everything you have learned during the bootcamp during these two weeks by creating an app by your own
