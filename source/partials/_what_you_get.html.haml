@@ -1,38 +1,44 @@
 - page ||= :default
 
-%section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/startup-2-fade.jpg')});"}
+%section.hero-splash-white
   .container
     .centered-row
       %article
         %h4.leader Bli en del av oss
-        %h2 Allt detta ingår
+        %h2{style: 'white-space: nowrap;'} 12 VECKOR - 14 DELTAGARE - 4 COACHER
         %ul
           %li
-            %h5
-              Förberedande kurs med stöd av coach.
+            %h4
+              4 veckors förberedande kurs
           %li
-            %h5
-              12 veckors utmaningsbaserad utbildning på heltid.
+            %h4
+              12 veckors utmaningsbaserad utbildning på heltid
           %li
-            %h5
-              Erfarna coacher på plats och på distans.
+            %h4
+              Kreativ miljö på plats i Stockholm eller Göteborg
           %li
-            %h5
-              Lär dig efterfrågade utvecklingsmetoder som Agile och TDD.
+            %h4
+              Små grupper med upp till 14 deltagare
           %li
-            %h5
-              Moderna ramverk inkl. HTML5, JavaScript, Ruby on Rails, React och React Native.
+            %h4
+              Erfarna coacher på plats och på distans
           %li
-            %h5
-              Kreativ miljö på Chalmers Innovation i Göteborg, en av Sveriges ledande startup-hubbar.
-              Kreativ miljö på OpenLab i Stockholm på KTHs vackra campus. 
+            %h4
+              Allt kursmaterial tillgänglig digitalt
           %li
-            %h5
-              Föreläsningar, nätverksträffar och meetups.
-
-
+            %h4
+              Utbildning inom efterfrågade utvecklingsmetoder som Agile och Testdriven utveckling
           %li
-            %h5
-              Hjälp med att söka jobb via vårt kontaktnät.
+            %h4
+              Moderna bibliotek och ramverk som HTML5, JavaScript, Ruby on Rails, React och React Native
+          %li
+            %h4
+              Föreläsningar, nätverksträffar och meetups
+          %li
+            %h4
+              Hjälp med att söka jobb via vårt kontaktnät
+          %li
+            %h4
+              Mentorstöd och support efter avslutad utbildning
         - unless page == :payment
           = link_to 'Betalningsplaner', '/payment', locals: {page: :payment}, class: 'button button--vertical'
