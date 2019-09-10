@@ -125,6 +125,7 @@ redirect 'blog.html', to: 'https://blog.craftacademy.se'
 redirect 'pretoria.html', to: 'south-africa.html'
 redirect 'south-africa.html', to: 'english/za/index.html'
 
+# HACK: Comment this section out while in development
 activate :deploy do |deploy|
   deploy.method          = :rsync
   deploy.host            = ENV.fetch('HOST')
