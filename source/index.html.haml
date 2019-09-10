@@ -11,22 +11,41 @@
     .centered-row
       %small
         %strong
-          Uppkommande kursstarter:
+          Kommande kursstarter:
       - Intake.future_dates[0..2].each do |intake|
         %h4.leader
           = intake.course_name
           = '-'
           = intake.start_date.strftime('%-d %b %Y')
 
-%section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/startup-fade.jpg')});"}
+%section.hero-splash-white
   .container
     .centered-row
+      %article
+        %h4.leader Omvärlden förändras
+        %h2 Tid för en ny form av utbildning
+        %p.copy
+          Digitaliseringen sker överallt och är omvälvande. Tiden är inne för en ny form av utbildning. 
+          En utbildning som matchar verklighetens krav och där mixen av praktisk kompetens och teoretiska kunskaper gör dig som student eftertraktad på arbetsmarknaden. 
+        %p.copy
+          %strong  
+            Vi har tagit fram den utbildningen. 
+    .centered-row{style: 'padding-top: 5vh;'}
       %article
         %h4.leader Bli en del av lösningen
         %h2 Det råder brist på kunnig personal
         %p.copy
           Arbetsgivare runt om i landet söker med ljus och lykta efter personal med rätt kunskaper. 
           Med Craft Academy hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
+    .centered-row{style: 'padding-top: 5vh;'}
+      %article
+        %h4.leader Du gör jobbet
+        %h2 Vi garaneterar resultat
+        %p.copy
+          Vår anställningsgaranti ger dig kursavgiften tillbaka om du inte får jobb efter avslutad utbildning.
+        %p.copy
+          %strong  
+            Vi tror på oss själva och vi tror på dig. Tillsammans formar vi framtiden.
 
 %section.hero-splash-white
   .container
